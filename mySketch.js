@@ -7,9 +7,9 @@ var Acolchange = 10, Bcolchange = 10, lcolchange = 10;
 var ImageCol = true, RAVE = false, help = false, Dcheck = false, Paused = false, Smoll = false;
 
 function preload() {
-	Image1 = loadImage('https://cdn.discordapp.com/attachments/323360506331267082/1155237637494423664/5X5_X_100_Brett_hold.png');
-	Image2 = loadImage('https://cdn.discordapp.com/attachments/323360506331267082/1155237637142089829/5X5_X_100_Brett_fear.png');
-	  Lizards = loadImage('https://cdn.discordapp.com/attachments/323360506331267082/1155237637788008528/LizardsWUT.png');
+  Image1 = loadImage('https://cdn.discordapp.com/attachments/323360506331267082/1155237637494423664/5X5_X_100_Brett_hold.png');
+  Image2 = loadImage('https://cdn.discordapp.com/attachments/323360506331267082/1155237637142089829/5X5_X_100_Brett_fear.png');
+	Lizards = loadImage('https://cdn.discordapp.com/attachments/323360506331267082/1155237637788008528/LizardsWUT.png');
 }
 function setup() {
 	createCanvas(1920, 1080);
